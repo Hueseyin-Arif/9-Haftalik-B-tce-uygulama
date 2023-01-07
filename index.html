@@ -9,15 +9,120 @@
 </head>
 <body>
     
+    <div class="container">
     <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="4" class="text-center main-title">Haftalik Bütce uygulamasi</td>
+          
+        </tr>
+        <tr>
+            <td colspan="4" class="text-center secondary-title" >Market harcamalari</td>
+            
+        </tr>
+        <tr class="text-bold">
+            <td>türü</td>
+            <td>hane</td>
+            <td>fiyat</td>
+            <td>sonuc</td>
+        </tr>
+        <tr>
+            <td>Süt</td>
+            <td>
+                <input type="number" id="product1_piece">
+            </td>
+            <td>
+                <input type="number" id="product1_price">
+            </td>
+            <td >
+                <input type="number" id="product1_total" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>Meyve Suyu</td>
+            <td>
+                <input type="number" id="product2_piece">
+            </td>
+            <td>
+                <input type="number" id="product2_price">
+            </td>
+            <td>
+                <input type="number" id="product2_total" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>Peynir</td>
+            <td>
+                <input type="number" id="product3_piece">
+            </td>
+            <td>
+                <input type="number" id="product3_price">
+            </td>
+            <td >
+                <input type="number" id="product3_total" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Ara toplam</td>
+           
+            <td>
+                <input type="number" id="products_total" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">Manav Harcamalari</td>
+           
+        </tr>
+        <tr class="text-bold">
+            <td>Türü</td>
+            <td>Kg</td>
+            <td>Fiyat</td>
+            <td>Sonuc</td>
+        </tr>
+        <tr>
+            <td>Domates</td>
+            <td>
+                <input type="number" id="product4_piece">
+            </td>
+            <td>
+                <input type="number" id="product4_price">
+            </td>
+            <td >
+                <input type="number" id="product4_total" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>Biber</td>
+            <td>
+                <input type="number" id="product5_piece">
+            </td>
+            <td>
+                <input type="number" id="product5_price">
+            </td>
+            <td >
+                <input type="number" id="product5_total" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Ara Toplam</td>
+           
+            <td>
+                <input type="number" id="products_price" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"> & </td>
+            
+        </tr>
+        <tr>
+            <td colspan="3"> Ana toplam</td>
+            
+            <td>
+                <input type="number" id="price_of_all" disabled>
+            </td>
         </tr>
     </table>
-
+    <input type="submit" value="Hesapla >>" id="hesapla" >
+    </div>
 
 
 
